@@ -27,7 +27,7 @@ input {
 
 input:hover {
     transform: scale(1.05);
-    background: linear-gradient(to right,#88eb6f ,#a2f0a8));
+    background: linear-gradient(to right,#88eb6f ,#a2f0a8);
 }
 
 .container{
