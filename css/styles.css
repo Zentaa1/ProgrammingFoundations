@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../assets/AnimatedShape.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    text-align: center;
+}
+
+input {
+    max-width: 250px;
+    width: 100%;
+    height: 30px;
+    background: linear-gradient(to right,#7dee61 ,#8ee695);
+}
+
+input:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right,#88eb6f ,#a2f0a8));
+}
+
+.container{
+    background: url(../assets/blob.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 1rem;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+.suspension {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.suspension > button {
+    margin-top: 10px;
+    width: 70px;
+}
+
+.suspension-container {
+    position: relative;
+    width: 100px;
+    height: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    margin-top: 2rem;
+  }
+  
+  .pressure-valve {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: #31a044;
+    transition: height 0.3s ease;
+  }
+
+  .filled {
+    height: 95%;
+  }
