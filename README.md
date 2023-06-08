@@ -23,5 +23,5 @@ When that part was done, i wanted to make more out of the project so i figured o
 with buttons that just fills or empty the valve.
 
 In all i found this project very fun to work on, javascript is frustruating when you dont know anything and everything just outputs errors,
-but when you start to understand it, its very fun to just play around with!
+but when you start to understand it, its very fun to just play around with.
 
